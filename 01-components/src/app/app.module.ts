@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { GreenComponent } from './green/green.component';
-import { YellowComponent } from './yellow/yellow.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { WarningSuccessComponent } from './warning-success/warning-success.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GreenComponent,
-    YellowComponent
+    WarningAlertComponent,
+    WarningSuccessComponent,
   ],
   imports: [
     BrowserModule,
