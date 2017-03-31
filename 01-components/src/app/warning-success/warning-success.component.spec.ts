@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { YellowComponent } from './yellow.component';
+import { WarningSuccessComponent } from './warning-success.component';
 
-describe('YellowComponent', () => {
-  let component: YellowComponent;
-  let fixture: ComponentFixture<YellowComponent>;
+describe('WarningSuccessComponent', () => {
+  let component: WarningSuccessComponent;
+  let fixture: ComponentFixture<WarningSuccessComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ YellowComponent ]
+      declarations: [ WarningSuccessComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(YellowComponent);
+    fixture = TestBed.createComponent(WarningSuccessComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
