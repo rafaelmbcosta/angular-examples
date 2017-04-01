@@ -6,16 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  userName = "";
+  userName = '';
   allowReset = false;
 
   resetUserName(){
-    this.userName = "";
+    this.userName = '';
   }
 
   onUpdateUserName(event){
     console.log(event);
-    if (event.target.value != ""){
+    if (event.target.value != ''){
       this.allowReset = true;
     } else {
       this.allowReset = false;
