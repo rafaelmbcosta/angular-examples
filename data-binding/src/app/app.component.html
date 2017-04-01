@@ -15,3 +15,10 @@
   (click)="resetUserName()"
   [disabled]="!allowReset"
   value="Reset"/>
+
+<p> Different way </p>
+
+  <input type="button"
+    (click)="resetUserName()"
+    [disabled]="userName === ''"
+    value="Reset"/>
